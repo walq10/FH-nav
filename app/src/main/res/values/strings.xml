@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">FH 导航</string>
+
+    <!-- Common -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="close">关闭</string>
+    <string name="back">返回</string>
+    <string name="retry">重试</string>
+    <string name="loading">加载中…</string>
+    <string name="no_data">暂无数据</string>
+    <string name="settings">设置</string>
+
+    <!-- Auth -->
+    <string name="auth_login">登录</string>
+    <string name="auth_register">注册</string>
+    <string name="auth_phone_hint">请输入手机号</string>
+    <string name="auth_sms_code_hint">请输入验证码</string>
+    <string name="auth_send_code">发送验证码</string>
+    <string name="auth_resend_code">重新发送 (%d秒)</string>
+    <string name="auth_nickname_hint">设置昵称</string>
+    <string name="auth_login_success">登录成功</string>
+    <string name="auth_logout">退出登录</string>
+    <string name="auth_logout_confirm">确定要退出登录吗？</string>
+    <string name="auth_error_invalid_phone">请输入有效的手机号</string>
+    <string name="auth_error_invalid_code">验证码错误</string>
+    <string name="auth_error_network">网络连接失败，请重试</string>
+
+    <!-- Navigation -->
+    <string name="nav_start">开始导航</string>
+    <string name="nav_stop">结束导航</string>
+    <string name="nav_reroute">重新规划路线</string>
+    <string name="nav_arrived">已到达目的地</string>
+    <string name="nav_speed_alert">请注意车速</string>
+    <string name="nav_turn_left">向左转</string>
+    <string name="nav_turn_right">向右转</string>
+    <string name="nav_turn_straight">直行</string>
+    <string name="nav_camera_alert">前方测速</string>
+    <string name="nav_traffic_alert">前方拥堵</string>
+    <string name="nav_distance">距离</string>
+    <string name="nav_duration">预计时间</string>
+    <string name="nav_speed">当前速度</string>
+    <string name="nav_eta">预计到达</string>
+
+    <!-- Map -->
+    <string name="map_search_hint">搜索地点</string>
+    <string name="map_search_no_result">未找到结果</string>
+    <string name="map_my_location">我的位置</string>
+    <string name="map_nearby_friends">附近好友</string>
+    <string name="map_traffic">路况</string>
+    <string name="map_satellite">卫星</string>
+    <string name="map_north_up">指北</string>
+
+    <!-- Friends -->
+    <string name="friends_title">好友</string>
+    <string name="friends_add">添加好友</string>
+    <string name="friends_add_hint">输入好友手机号</string>
+    <string name="friends_request_sent">好友请求已发送</string>
+    <string name="friends_request_received">收到好友请求</string>
+    <string name="friends_accept">接受</string>
+    <string name="friends_reject">拒绝</string>
+    <string name="friends_remove">删除好友</string>
+    <string name="friends_remove_confirm">确定要删除该好友吗？</string>
+    <string name="friends_online">在线</string>
+    <string name="friends_offline">离线</string>
+    <string name="friends_no_friends">还没有好友\n点击右上角添加</string>
+    <string name="friends_navigate_to">导航去这里</string>
+
+    <!-- Phrase bubbles -->
+    <string name="phrases_title">快捷短语</string>
+    <string name="phrases_send">发送</string>
+    <string name="phrases_custom_add">添加自定义短语</string>
+    <string name="phrases_custom_hint">输入短语内容</string>
+    <string name="phrases_category_greeting">打招呼</string>
+    <string name="phrases_category_warning">警告</string>
+    <string name="phrases_category_direction">方向</string>
+    <string name="phrases_category_speed">速度</string>
+    <string name="phrases_category_emergency">紧急</string>
+    <string name="phrases_category_custom">自定义</string>
+    <string name="phrases_max_reached">最多添加 %d 条自定义短语</string>
+
+    <!-- Preset phrases (ZH) -->
+    <string name="phrase_hello">你好！</string>
+    <string name="phrase_follow_me">跟紧我！</string>
+    <string name="phrase_slow_down">慢点开！</string>
+    <string name="phrase_speed_up">加速跟上！</string>
+    <string name="phrase_turn_left">前面左转！</string>
+    <string name="phrase_turn_right">前面右转！</string>
+    <string name="phrase_go_straight">直行！</string>
+    <string name="phrase_pull_over">靠边停车！</string>
+    <string name="phrase_stop">停车！</string>
+    <string name="phrase_careful">小心！</string>
+    <string name="phrase_good_job">开得好！</string>
+    <string name="phrase_pit_stop">休息一下</string>
+    <string name="phrase_gas_station">加油</string>
+    <string name="phrase_rest_area">服务区</string>
+    <string name="phrase_behind_you">后面有车</string>
+    <string name="phrase_emergency_stop">紧急停车！</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_voice">语音设置</string>
+    <string name="settings_voice_enable">启用语音</string>
+    <string name="settings_voice_language">语音语言</string>
+    <string name="settings_voice_volume">语音音量</string>
+    <string name="settings_voice_language_zh">中文</string>
+    <string name="settings_voice_language_en">English</string>
+    <string name="settings_location">位置设置</string>
+    <string name="settings_location_sharing">位置共享</string>
+    <string name="settings_location_sharing_desc">允许好友查看你的实时位置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_dark_mode">深色模式</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本 %s</string>
+    <string name="settings_feedback">意见反馈</string>
+    <string name="settings_privacy">隐私政策</string>
+    <string name="settings_terms">服务条款</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_location">位置共享</string>
+    <string name="notification_channel_location_desc">后台位置共享服务通知</string>
+    <string name="notification_channel_message">消息通知</string>
+    <string name="notification_channel_message_desc">好友消息和短语通知</string>
+    <string name="notification_channel_navigation">导航通知</string>
+    <string name="notification_channel_navigation_desc">导航状态和语音提示通知</string>
+    <string name="notification_location_title">FH 导航 - 位置共享中</string>
+    <string name="notification_location_text">正在分享你的实时位置</string>
+    <string name="action_stop_sharing">停止共享</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale_location">FH 导航需要位置权限来提供导航和位置共享功能</string>
+    <string name="permission_rationale_background_location">需要后台位置权限以在应用关闭时继续分享位置</string>
+    <string name="permission_rationale_notification">需要通知权限来显示导航提示和好友消息</string>
+    <string name="permission_rationale_phone_state">需要电话状态权限用于手机号登录验证</string>
+    <string name="permission_rationale_generic">此功能需要相关权限才能正常使用</string>
+    <string name="permission_denied">权限被拒绝，部分功能可能无法使用</string>
+    <string name="permission_granted">权限已授予</string>
+
+    <!-- Errors -->
+    <string name="error_network">网络连接失败</string>
+    <string name="error_server">服务器错误</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="error_location_unavailable">无法获取位置信息</string>
+    <string name="error_location_disabled">请开启定位服务</string>
+    <string name="error_route_failed">路线规划失败</string>
+    <string name="error_search_failed">搜索失败，请重试</string>
+    <string name="error_friend_add_failed">添加好友失败</string>
+    <string name="error_phrase_send_failed">发送短语失败</string>
+
+    <!-- HUD / Speed display -->
+    <string name="hud_speed_unit">km/h</string>
+    <string name="hud_altitude">海拔</string>
+    <string name="hud_bearing">方向</string>
+    <string name="hud_accuracy">精度</string>
+
+    <!-- Navigation drawer / tabs -->
+    <string name="drawer_map">地图</string>
+    <string name="drawer_friends">好友</string>
+    <string name="drawer_phrases">短语</string>
+    <string name="drawer_settings">设置</string>
+    <string name="drawer_profile">个人资料</string>
+
+    <!-- Empty states -->
+    <string name="empty_friends">还没有好友\n添加好友一起出行吧！</string>
+    <string name="empty_phrases">暂无短语\n添加常用短语方便沟通</string>
+    <string name="empty_search_history">暂无搜索记录</string>
+    <string name="empty_navigation">点击地图设置目的地开始导航</string>
+</resources>

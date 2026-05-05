@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">FH Navigation</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="no_data">No data</string>
+    <string name="settings">Settings</string>
+
+    <!-- Auth -->
+    <string name="auth_login">Log In</string>
+    <string name="auth_register">Sign Up</string>
+    <string name="auth_phone_hint">Enter phone number</string>
+    <string name="auth_sms_code_hint">Enter verification code</string>
+    <string name="auth_send_code">Send Code</string>
+    <string name="auth_resend_code">Resend (%ds)</string>
+    <string name="auth_nickname_hint">Set nickname</string>
+    <string name="auth_login_success">Login successful</string>
+    <string name="auth_logout">Log Out</string>
+    <string name="auth_logout_confirm">Are you sure you want to log out?</string>
+    <string name="auth_error_invalid_phone">Please enter a valid phone number</string>
+    <string name="auth_error_invalid_code">Invalid verification code</string>
+    <string name="auth_error_network">Network error, please try again</string>
+
+    <!-- Navigation -->
+    <string name="nav_start">Start Navigation</string>
+    <string name="nav_stop">End Navigation</string>
+    <string name="nav_reroute">Rerouting</string>
+    <string name="nav_arrived">Arrived at destination</string>
+    <string name="nav_speed_alert">Watch your speed</string>
+    <string name="nav_turn_left">Turn left</string>
+    <string name="nav_turn_right">Turn right</string>
+    <string name="nav_turn_straight">Go straight</string>
+    <string name="nav_camera_alert">Speed camera ahead</string>
+    <string name="nav_traffic_alert">Traffic ahead</string>
+    <string name="nav_distance">Distance</string>
+    <string name="nav_duration">ETA</string>
+    <string name="nav_speed">Speed</string>
+    <string name="nav_eta">Arriving</string>
+
+    <!-- Map -->
+    <string name="map_search_hint">Search location</string>
+    <string name="map_search_no_result">No results found</string>
+    <string name="map_my_location">My Location</string>
+    <string name="map_nearby_friends">Nearby Friends</string>
+    <string name="map_traffic">Traffic</string>
+    <string name="map_satellite">Satellite</string>
+    <string name="map_north_up">North Up</string>
+
+    <!-- Friends -->
+    <string name="friends_title">Friends</string>
+    <string name="friends_add">Add Friend</string>
+    <string name="friends_add_hint">Enter friend\'s phone number</string>
+    <string name="friends_request_sent">Friend request sent</string>
+    <string name="friends_request_received">Friend request received</string>
+    <string name="friends_accept">Accept</string>
+    <string name="friends_reject">Reject</string>
+    <string name="friends_remove">Remove Friend</string>
+    <string name="friends_remove_confirm">Remove this friend?</string>
+    <string name="friends_online">Online</string>
+    <string name="friends_offline">Offline</string>
+    <string name="friends_no_friends">No friends yet\nTap + to add</string>
+    <string name="friends_navigate_to">Navigate here</string>
+
+    <!-- Phrase bubbles -->
+    <string name="phrases_title">Quick Phrases</string>
+    <string name="phrases_send">Send</string>
+    <string name="phrases_custom_add">Add Custom Phrase</string>
+    <string name="phrases_custom_hint">Enter phrase text</string>
+    <string name="phrases_category_greeting">Greeting</string>
+    <string name="phrases_category_warning">Warning</string>
+    <string name="phrases_category_direction">Direction</string>
+    <string name="phrases_category_speed">Speed</string>
+    <string name="phrases_category_emergency">Emergency</string>
+    <string name="phrases_category_custom">Custom</string>
+    <string name="phrases_max_reached">Max %d custom phrases allowed</string>
+
+    <!-- Preset phrases (EN) -->
+    <string name="phrase_hello">Hello!</string>
+    <string name="phrase_follow_me">Follow me!</string>
+    <string name="phrase_slow_down">Slow down!</string>
+    <string name="phrase_speed_up">Speed up!</string>
+    <string name="phrase_turn_left">Turn left ahead!</string>
+    <string name="phrase_turn_right">Turn right ahead!</string>
+    <string name="phrase_go_straight">Go straight!</string>
+    <string name="phrase_pull_over">Pull over!</string>
+    <string name="phrase_stop">Stop!</string>
+    <string name="phrase_careful">Careful!</string>
+    <string name="phrase_good_job">Nice driving!</string>
+    <string name="phrase_pit_stop">Pit stop</string>
+    <string name="phrase_gas_station">Gas station</string>
+    <string name="phrase_rest_area">Rest area</string>
+    <string name="phrase_behind_you">Car behind you</string>
+    <string name="phrase_emergency_stop">Emergency stop!</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_voice">Voice Settings</string>
+    <string name="settings_voice_enable">Enable Voice</string>
+    <string name="settings_voice_language">Voice Language</string>
+    <string name="settings_voice_volume">Voice Volume</string>
+    <string name="settings_voice_language_zh">中文</string>
+    <string name="settings_voice_language_en">English</string>
+    <string name="settings_location">Location Settings</string>
+    <string name="settings_location_sharing">Location Sharing</string>
+    <string name="settings_location_sharing_desc">Allow friends to see your real-time location</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %s</string>
+    <string name="settings_feedback">Send Feedback</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_location">Location Sharing</string>
+    <string name="notification_channel_location_desc">Background location sharing service notification</string>
+    <string name="notification_channel_message">Messages</string>
+    <string name="notification_channel_message_desc">Friend messages and phrase notifications</string>
+    <string name="notification_channel_navigation">Navigation</string>
+    <string name="notification_channel_navigation_desc">Navigation status and voice prompt notifications</string>
+    <string name="notification_location_title">FH Navigation - Sharing Location</string>
+    <string name="notification_location_text">Sharing your real-time location</string>
+    <string name="action_stop_sharing">Stop Sharing</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale_location">FH Navigation needs location access for navigation and location sharing</string>
+    <string name="permission_rationale_background_location">Background location is needed to continue sharing when the app is closed</string>
+    <string name="permission_rationale_notification">Notification permission is needed for navigation prompts and friend messages</string>
+    <string name="permission_rationale_phone_state">Phone state permission is needed for phone number login</string>
+    <string name="permission_rationale_generic">This feature requires permission to work properly</string>
+    <string name="permission_denied">Permission denied, some features may not work</string>
+    <string name="permission_granted">Permission granted</string>
+
+    <!-- Errors -->
+    <string name="error_network">Network connection failed</string>
+    <string name="error_server">Server error</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_location_unavailable">Unable to get location</string>
+    <string name="error_location_disabled">Please enable location services</string>
+    <string name="error_route_failed">Route planning failed</string>
+    <string name="error_search_failed">Search failed, please retry</string>
+    <string name="error_friend_add_failed">Failed to add friend</string>
+    <string name="error_phrase_send_failed">Failed to send phrase</string>
+
+    <!-- HUD / Speed display -->
+    <string name="hud_speed_unit">km/h</string>
+    <string name="hud_altitude">Alt</string>
+    <string name="hud_bearing">Bearing</string>
+    <string name="hud_accuracy">Accuracy</string>
+
+    <!-- Navigation drawer / tabs -->
+    <string name="drawer_map">Map</string>
+    <string name="drawer_friends">Friends</string>
+    <string name="drawer_phrases">Phrases</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_profile">Profile</string>
+
+    <!-- Empty states -->
+    <string name="empty_friends">No friends yet\nAdd friends to ride together!</string>
+    <string name="empty_phrases">No phrases yet\nAdd phrases for quick communication</string>
+    <string name="empty_search_history">No search history</string>
+    <string name="empty_navigation">Tap the map to set a destination</string>
+</resources>

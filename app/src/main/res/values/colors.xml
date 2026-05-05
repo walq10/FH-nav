@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FH4 Dark Theme Colors -->
+    <color name="fh4_background">#FF0D1117</color>
+    <color name="fh4_surface">#FF161B22</color>
+    <color name="fh4_surface_variant">#FF21262D</color>
+    <color name="fh4_primary">#FF00D4FF</color>          <!-- Cyan neon -->
+    <color name="fh4_primary_variant">#FF00A8CC</color>   <!-- Darker cyan -->
+    <color name="fh4_secondary">#FF39FF14</color>         <!-- Neon green -->
+    <color name="fh4_secondary_variant">#FF2ED573</color>
+    <color name="fh4_accent">#FFFF6B35</color>            <!-- Orange accent -->
+    <color name="fh4_text">#FFE6EDF3</color>
+    <color name="fh4_text_secondary">#FF8B949E</color>
+    <color name="fh4_error">#FFFF4757</color>
+    <color name="fh4_success">#FF2ED573</color>
+    <color name="fh4_warning">#FFFFA502</color>
+    <color name="fh4_on_primary">#FF0D1117</color>
+    <color name="fh4_on_secondary">#FF0D1117</color>
+    <color name="fh4_on_surface">#FFE6EDF3</color>
+    <color name="fh4_outline">#FF30363D</color>
+    <color name="fh4_divider">#FF21262D</color>
+    <color name="fh4_disabled">#FF484F58</color>
+    <color name="fh4_scrim">#80000000</color>
+
+    <!-- Speed display gradient -->
+    <color name="fh4_speed_green">#FF39FF14</color>
+    <color name="fh4_speed_yellow">#FFFFD700</color>
+    <color name="fh4_speed_red">#FFFF4757</color>
+
+    <!-- Route colors -->
+    <color name="fh4_route_primary">#FF00D4FF</color>
+    <color name="fh4_route_alternative">#FF39FF14</color>
+    <color name="fh4_route_tertiary">#FFFF6B35</color>
+
+    <!-- Glow colors (with alpha) -->
+    <color name="fh4_glow_cyan">#4000D4FF</color>
+    <color name="fh4_glow_green">#4039FF14</color>
+    <color name="fh4_glow_orange">#40FF6B35</color>
+
+    <!-- Light Theme Colors -->
+    <color name="light_background">#FFF6F8FA</color>
+    <color name="light_surface">#FFFFFFFF</color>
+    <color name="light_surface_variant">#FFF0F3F6</color>
+    <color name="light_primary">#FF0969DA</color>
+    <color name="light_primary_variant">#FF0550AE</color>
+    <color name="light_secondary">#FF1A7F37</color>
+    <color name="light_secondary_variant">#FF116329</color>
+    <color name="light_accent">#FFE36209</color>
+    <color name="light_text">#FF24292F</color>
+    <color name="light_text_secondary">#FF656D76</color>
+    <color name="light_on_primary">#FFFFFFFF</color>
+    <color name="light_on_secondary">#FFFFFFFF</color>
+    <color name="light_on_surface">#FF24292F</color>
+    <color name="light_outline">#FFD0D7DE</color>
+    <color name="light_divider">#FFD8DEE4</color>
+    <color name="light_disabled">#FFAFB8C1</color>
+
+    <!-- Material3 Seed Colors -->
+    <color name="md_theme_primary">#FF00D4FF</color>
+    <color name="md_theme_onPrimary">#FF0D1117</color>
+    <color name="md_theme_primaryContainer">#FF004D66</color>
+    <color name="md_theme_onPrimaryContainer">#FFB3ECFF</color>
+    <color name="md_theme_secondary">#FF39FF14</color>
+    <color name="md_theme_onSecondary">#FF0D1117</color>
+    <color name="md_theme_secondaryContainer">#FF0A4D00</color>
+    <color name="md_theme_onSecondaryContainer">#FF90FF70</color>
+    <color name="md_theme_tertiary">#FFFF6B35</color>
+    <color name="md_theme_onTertiary">#FF0D1117</color>
+    <color name="md_theme_error">#FFFF4757</color>
+    <color name="md_theme_onError">#FFFFFFFF</color>
+    <color name="md_theme_background">#FF0D1117</color>
+    <color name="md_theme_onBackground">#FFE6EDF3</color>
+    <color name="md_theme_surface">#FF161B22</color>
+    <color name="md_theme_onSurface">#FFE6EDF3</color>
+    <color name="md_theme_surfaceVariant">#FF21262D</color>
+    <color name="md_theme_onSurfaceVariant">#FF8B949E</color>
+    <color name="md_theme_outline">#FF30363D</color>
+</resources>

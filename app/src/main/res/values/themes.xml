@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base app theme (dark) - used by Compose FHNavTheme -->
+    <style name="Theme.FHNavigation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/fh4_primary</item>
+        <item name="colorOnPrimary">@color/fh4_on_primary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/fh4_secondary</item>
+        <item name="colorOnSecondary">@color/fh4_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/fh4_accent</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/fh4_error</item>
+        <item name="colorOnError">@color/md_theme_onError</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/fh4_background</item>
+        <item name="colorOnBackground">@color/fh4_text</item>
+        <item name="colorSurface">@color/fh4_surface</item>
+        <item name="colorOnSurface">@color/fh4_on_surface</item>
+        <item name="colorSurfaceVariant">@color/fh4_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/fh4_text_secondary</item>
+
+        <!-- Outline -->
+        <item name="colorOutline">@color/fh4_outline</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- System UI -->
+        <item name="android:windowBackground">@color/fh4_background</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.FHNavigation.Splash" parent="Theme.FHNavigation">
+        <item name="android:windowBackground">@color/fh4_background</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
